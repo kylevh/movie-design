@@ -19,7 +19,9 @@ class Drama : public MovieDVD {
         virtual int getStock();
 
     private:
+        std::string major_actor;
         std::string title;
         std::string director;
+        int stock;
         int year;
 };

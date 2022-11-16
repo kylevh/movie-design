@@ -21,5 +21,7 @@ class Comedy : public MovieDVD {
     private:
         std::string title;
         std::string director;
+        int stock;
+
         int year;
 };

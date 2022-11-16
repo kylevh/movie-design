@@ -21,5 +21,6 @@ class Classic : public MovieDVD {
     private:
         std::string title;
         std::string director;
+        int stock;
         int year;
 };

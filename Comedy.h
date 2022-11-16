@@ -13,7 +13,6 @@ class Comedy : public MovieDVD {
         Comedy();
         Comedy(int stock, std::string director, std::string title, int year);
         virtual ~Comedy();
-        virtual void constructor();
         virtual std::string info();
         virtual int addStock();
         virtual int getStock();

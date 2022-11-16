@@ -13,7 +13,6 @@ class MovieDVD {
     public:
         MovieDVD();
         virtual ~MovieDVD();
-        virtual void constructor();
         virtual std::string info();
         virtual int addStock();
         virtual int getStock();

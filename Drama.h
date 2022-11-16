@@ -13,7 +13,6 @@ class Drama : public MovieDVD {
         Drama();
         Drama(int stock, std::string director, std::string title, int year);
         virtual ~Drama();
-        virtual void constructor();
         virtual std::string info();
         virtual int addStock();
         virtual int getStock();

@@ -13,7 +13,6 @@ class Classic : public MovieDVD {
         Classic();
         Classic(int stock, std::string director, std::string title, int year);
         virtual ~Classic();
-        virtual void constructor();
         virtual std::string info();
         virtual int addStock();
         virtual int getStock();
